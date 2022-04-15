@@ -1,0 +1,34 @@
+{
+  "name": "wikijap-community",
+  "version": "0.1.0",
+  "description": "A simple bot for managing a discord server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node -r dotenv/config src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thibault-MJS/wikijap-community.git"
+  },
+  "keywords": [
+    "#bot",
+    "#private"
+  ],
+  "author": "Thibault MINNEBOO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Thibault-MJS/wikijap-community/issues"
+  },
+  "homepage": "https://github.com/Thibault-MJS/wikijap-community#readme",
+  "dependencies": {
+    "@types/node": "^17.0.24",
+    "chalk": "^5.0.1",
+    "discord.js": "^13.6.0",
+    "mongoose": "^6.3.0",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.7.0"
+  }
+}
